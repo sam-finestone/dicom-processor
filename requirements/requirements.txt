@@ -1,9 +1,6 @@
-certifi @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_477u68wvzm/croot/certifi_1671487773341/work/certifi
-nltk==3.4.5
-numpy==1.21.6
-pandas==1.3.5
+certifi==2022.12.7
 Pillow==9.4.0
+pip==23.0.1
 pydicom==2.3.1
-python-dateutil==2.8.2
-pytz==2023.3
-six==1.16.00
+setuptools==65.6.3
+wheel==0.38.4

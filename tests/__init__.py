@@ -1,1 +1,1 @@
-from .test_dicom_processor import TestDICOMProcessor
+from .dummy import dummyTest1
