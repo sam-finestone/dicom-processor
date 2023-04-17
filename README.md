@@ -1,4 +1,4 @@
-# Take-home Exercise: DICOM Image Processing Library
+# DICOM Image Processing Library
 
 
 ## Background
@@ -23,4 +23,19 @@ When completed, provide your source code as a zip file or private Github reposit
 
 #### DICOM Data:
 https://drive.google.com/file/d/1SsLf_TvESnXTj8yMjWY6XHELCUmMXHZ_
+
+
+## Extra packages 
+os: This package provides a way to interact with the operating system, allowing Python programs to perform tasks such as reading and writing files, creating directories, and executing commands.
+
+unittest: This package provides a framework for writing and running unit tests in Python. It includes classes and methods for setting up test fixtures, running tests, and reporting results.
+
+logging: This package provides a flexible logging system for Python programs. It allows developers to output messages to different targets, such as the console or a file, and set different log levels for different parts of the program. This can be useful for debugging and monitoring the behavior of a program.
+
+## Run the code 
+run python test/test_dicom_processor_script.py to test the 'DICOMProcessor' processing class with the tasked features 
+
+run python dicom_processor/main.py to run a simple example of the data (one CT dicom file) as well as a whole stack of a patient dicom files (for instance folder 050)
+
+The output of the CT images will be outputed to a file called ./output
 
